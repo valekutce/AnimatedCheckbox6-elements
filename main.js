@@ -1,7 +1,7 @@
-$(".switch").on('click', function(){
-            $(this).toggleClass("active");
-            if ($('.span').text() == "ON")
-                $('.span').text("OFF")
+jQuery(".switch").on('click', function(){
+            jQuery(this).toggleClass("active");
+            if (jQuery('.span').text() == "ON")
+                jQuery('.span').text("OFF")
             else
-                $('.span').text("ON");
+                jQuery('.span').text("ON");
         });
